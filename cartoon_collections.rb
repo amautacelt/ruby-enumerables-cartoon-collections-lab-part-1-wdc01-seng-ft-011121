@@ -5,7 +5,7 @@ def greet_characters(array)
   
   #characters_array = ["Hoggle", "Ludo", "Sir Didymus"]
   greet_characters.each do |character|
-    puts "#{character}!"
+    puts "Hello #{character}!"
   
 end
 #greet_characters(["Hoggle", "Ludo", "Sir Didymus"])
