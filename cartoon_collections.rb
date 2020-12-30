@@ -8,7 +8,7 @@ def greet_characters(array)
     puts "Hello #{character}!"
   
 end
-#greet_characters(["Hoggle", "Ludo", "Sir Didymus"])
+greet_characters(["Hoggle", "Ludo", "Sir Didymus"])
 
 def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
