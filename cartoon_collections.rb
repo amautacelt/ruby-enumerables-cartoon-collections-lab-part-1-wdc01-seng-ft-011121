@@ -1,10 +1,10 @@
-def greet_characters(array)
+def greet_characters(adan)
   # Use `each` to enumerate over the provided array
   #
   # Print a custom greeting for each element
   
   
-  greet_characters.each do |character|
+  adan.each do |character|
     puts "Hello #{character}!"
   end
   
