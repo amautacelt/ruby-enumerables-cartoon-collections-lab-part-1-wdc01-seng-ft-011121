@@ -5,11 +5,12 @@ def greet_characters(array)
   
   #characters_array = ["Hoggle", "Ludo", "Sir Didymus"]
   
-  greet_characters.each do |character|
-    puts "Hello #{character}!"
+  array.each do |name|
+    puts "Hello #{name}!"
   
 end
 greet_characters(["Hoggle", "Ludo", "Sir Didymus"])
+
 
 def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
