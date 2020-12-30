@@ -9,7 +9,7 @@ def greet_characters(array)
     puts "Hello #{name}!"
   
 end
-greet_characters(["Hoggle", "Ludo", "Sir Didymus"])
+#greet_characters(["Hoggle", "Ludo", "Sir Didymus"])
 
 
 def list_dwarves(array)
