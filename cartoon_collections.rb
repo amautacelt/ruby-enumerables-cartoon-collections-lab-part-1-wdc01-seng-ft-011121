@@ -5,7 +5,7 @@ def greet_characters(array)
   
   characters_array = ["Hoggle", "Ludo", "Sir Didymus"]
   characters_array.each do |character|
-    puts "" character
+    puts "Hello #{characters_array}" character
   
 end
 
